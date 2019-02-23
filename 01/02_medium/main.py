@@ -5,7 +5,7 @@ import sys
 from typing import Tuple
 import pokecalc
 
-WELCOME_MESSAGE = '''Pokemon damage multiplier calculator by {}!
+WELCOME_MESSAGE = '''Pokemon damage multiplier calculator!
 Enter your query in the form of:
 attack_type -> defense_type [, defense_type, ..]
 
