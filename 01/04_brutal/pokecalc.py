@@ -52,11 +52,13 @@ class DamageCalculator():
 
         return functools.reduce(operator.mul, multipliers)
 
+
 @functools.lru_cache(maxsize=128)
 def get_attack_type(name: str) -> str:
     '''Returns type for the specified attack.'''
     url = ATTACK_API_URL.format(name)
     return requests.get(url).json()['type']['name']
+
 
 @functools.lru_cache(maxsize=128)
 def get_pokemon_types(name: str) -> Tuple[str]:
