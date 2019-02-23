@@ -1,4 +1,3 @@
-import csv
 import functools
 import operator
 from typing import Iterable, Union
