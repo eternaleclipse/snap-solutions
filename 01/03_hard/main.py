@@ -6,7 +6,7 @@ from typing import Tuple
 import json
 import pokecalc
 
-WELCOME_MESSAGE = '''Pokemon damage multiplier calculator by {}!
+WELCOME_MESSAGE = '''Pokemon damage multiplier calculator!
 Enter your query in the form of:
 move_name -> pokemon_name
 
